@@ -1,0 +1,150 @@
+*, *::before, *::after { 
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #E8DFCA;
+  color: #937DC2;
+}
+
+/* Header section */
+header {
+  background-color: #F5EFE6;
+}
+
+.shop-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 1rem;
+}
+
+/* Main section */
+#app { 
+  margin: 3rem;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.cat-item {
+  margin: 1rem;
+}
+
+#view-cart {
+  text-align: center;
+  margin: 2rem;
+  background-color: #FCDDB0;
+}
+
+.no-display {
+  display: none;
+}
+
+/* buttons */
+.add-button {
+  margin: 1rem;
+}
+.add-cart-button {
+  background-color: #937DC2;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  margin-left: 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 8px;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.add-cart-button:hover {
+  background-color: white;
+  color: #937DC2;
+}
+
+.view-cart-button {
+  background-color: #937DC2;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  margin-left: 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.view-cart-button:hover {
+  background-color: white;
+  color: #937DC2;
+}
+
+.hide-cart {
+  background-color: #937DC2;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  margin-left: 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.hide-cart:hover {
+  background-color: white;
+  color: #937DC2;
+}
+
+
+.remove-all {
+  background-color: #937DC2;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin: 1rem;
+}
+
+.remove-all :hover {
+  background-color: white;
+  color: #937DC2;
+}
+
+
+
+/* Footer section */
+footer {
+  background-color: #DFD3C3;
+  text-align: center;
+  height: 2rem;
+  line-height: 200%;
+}
+
+.cat-emoji-footer {
+  text-align: center;
+}

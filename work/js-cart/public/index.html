@@ -1,0 +1,79 @@
+<!doctype html>
+      <html>
+        <head>
+          <title>Cat Shop</title>
+          <link rel="stylesheet" href="style.css">
+          <script defer src='bundle.js'></script>
+        </head>
+      
+        <body>
+          <header>
+            <div class="shop-logo">
+              <div><img class="logo" src="//placekitten.com/50/50" alt="random cat in lieu of logo"/></div>
+              <div><h1>Cat Shop</h1></div>
+            </div>
+          </header>
+
+          <main>
+            <div id="app">
+              <div class="cat-item">
+                <div class="cat-img">
+                  <img src="http://placekitten.com/150/150?image=1" alt="cat">
+                </div>
+                <div class="cat-item-details>
+                  <span class="cat-name">mickey </span>
+                  <span class="cat-price">$0.99</span>
+                 </div>
+                <div class="add-button">
+                  <button class="add-cart-button" data-name="mickey" data-price="0.99" data-img="1" type="button">Add to Cart</button>
+                </div>
+              </div>
+
+              <div class="cat-item">
+                <div class="cat-img" >
+                  <img src="http://placekitten.com/150/150?image=2" alt="cat">
+                </div>
+                <div class="cat-item-details>
+                  <span class="cat-name">jerry </span>
+                  <span class="cat-price">$3.14</span>
+                 </div>
+                 <div class="add-button">
+                  <button class="add-cart-button" data-name="jerry" data-price="3.14" data-img="2" type="button">Add to Cart</button>
+                </div>
+              </div>
+              
+              <div class="cat-item">
+                <div class="cat-img">
+                  <img src="http://placekitten.com/150/150?image=3" alt="cat">
+                </div>
+                <div class="cat-item-details>
+                  <span class="cat-name">tom </span>
+                  <span class="cat-price">$2.73</span>
+                 </div>
+                 <div class="add-button">
+                  <button class="add-cart-button" data-name="tom" data-price="2.73" data-img="3" type="button">Add to Cart</button>
+                 </div>
+              </div>
+            </div>
+
+          <div id="view-cart">
+            <div class="view-cart-button-div"></div>
+            <div class="empty-cart no-display">Nothing in the cart</div>
+
+            <div class="cart-part no-display">
+            <button class="hide-cart" type="button">Hide Cart</button>
+              <div class="cart-header">
+                  <span >Item</span>
+                  <span >Price</span>
+                  <span >Quantity</span>
+              <div>
+              <div class="cartItems"></div>
+          </div>
+        </div>
+          </main>
+
+          <footer>
+            <div class="cat-emoji-footer"> 😺😺😺 </div>
+          </footer>   
+        </body>
+      </html>

@@ -1,0 +1,96 @@
+.app {
+  background: whitesmoke;
+}
+
+.status {
+  text-align: center;
+}
+
+.button {
+  background-color: #937DC2;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  margin-left: 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 8px;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: white;
+  color: #937DC2;
+}
+
+.login {
+  text-align: center;
+  height: 1050px;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.login-form{
+  width: 500px;
+  height: 500px;
+  
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+  margin: auto;
+}
+
+.container {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 150px auto 250px;
+}
+
+.info {
+  text-align: center;
+}
+
+.food-container {
+  display: grid;
+  grid-template-columns: 250px auto 250px;
+  grid-template-rows: 250px 250px 250px;
+  text-align: center;
+}
+
+.product-img {
+  width: 200px;
+  height: 150px;
+}
+
+.cart {
+  text-align: center;
+}
+
+.cart-label {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: large;
+}
+
+.cart-item {
+  margin-bottom: 0.5rem;
+}
+
+.price-checkout {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.total-price {
+  margin-bottom: 1rem;
+}

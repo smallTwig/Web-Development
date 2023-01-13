@@ -1,0 +1,111 @@
+*, *::before, *::after { 
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #E8DFCA;
+  color: #937DC2;
+}
+
+/* Header section */
+header {
+  background-color: #F5EFE6;
+}
+
+.header-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 1rem;
+}
+
+
+/* Main section */
+.welcome {
+  text-align: center;
+}
+
+.login {
+  text-align: center;
+  padding: 2rem;
+}
+
+.login-failed {
+  text-align: center;
+}
+
+.guess-word {
+  text-align: center;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.words {
+  text-align: center;
+  border-style: solid;
+  border-color: #937DC2;
+  padding: 1rem;
+  margin: 0 5rem;;
+}
+
+.previous-guess {
+  border-style: solid;
+  border-color: #937DC2;
+  padding: 2rem;
+  margin: 0 5rem;
+}
+
+.error-input {
+  text-align: center;
+  margin: 2rem;
+}
+
+
+/* Send word */
+.guess-data { 
+  grid-area: outgoing;
+  text-align: center;
+  margin: 2rem;
+}
+
+.to-send {
+  height: 50px;
+  width: 250px;
+}
+
+.send-button {
+  background-color: #937DC2;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  margin-left: 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.send-button:hover {
+  background-color: white;
+  color: #937DC2;
+}
+
+/* Footer section */
+footer {
+  background-color: #DFD3C3;
+  text-align: center;
+  height: 2rem;
+  line-height: 200%;
+}
+
+.cat-emoji-footer {
+  text-align: center;
+}

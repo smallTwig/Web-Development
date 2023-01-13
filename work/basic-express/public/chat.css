@@ -1,0 +1,143 @@
+*, *::before, *::after { 
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #E8DFCA;
+  color: #937DC2;
+}
+
+/* Header section */
+header {
+  background-color: #F5EFE6;
+}
+
+.chat-room-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 1rem;
+}
+
+/* Main section */
+#chat-app { 
+  display: grid;
+  grid-template-areas: 
+    "users messages"
+    "outgoing outgoing"
+  ;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr auto;
+
+  margin: 3rem;
+  height: 100%;
+}
+
+/* Users */
+.users { 
+  grid-area: users;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
+  list-style-type: none;
+}
+
+.username { 
+  margin: auto 1rem;
+}
+
+/* Message list */
+.messages { 
+  grid-area: messages;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
+  list-style-type: none;
+}
+
+.message { 
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.sender-info { 
+  display: flex;
+  width: 10rem;
+}
+
+.avatar { 
+  height: 2rem;
+}
+
+.message-text { 
+  width: 100%;
+  margin: auto 1rem;
+}
+
+/* Send message */
+.outgoing { 
+  grid-area: outgoing;
+  text-align: center;
+  margin: 2rem;
+}
+
+.to-send {
+  height: 50px;
+  width: 250px;
+}
+
+.send-button {
+  background-color: #937DC2;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  margin-left: 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.send-button:hover {
+  background-color: white;
+  color: #937DC2;
+}
+
+/* Footer section */
+footer {
+  background-color: #DFD3C3;
+  text-align: center;
+  height: 2rem;
+  line-height: 200%;
+}
+
+.cat-emoji-footer {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
